@@ -1,0 +1,92 @@
+/*
+Project Name: Portfolio
+Author: Chiranjeev Singh
+*/
+
+
+
+/*----------------------------------------------------------------------------- 
+=01 BASE STYLES 
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear Class */
+.clear {
+	clear: both;
+}
+body{
+	margin: 0 auto;
+	position: relative;
+	background-color: black;
+}
+
+h2, h3  {
+	font-family: 'Marck Script', cursive;
+}
+
+a{
+	text-decoration: none;
+}
+/*----------------------------------------------------------------------------- 
+=02 LAYOUT 
+-----------------------------------------------------------------------------*/
+
+
+#container {
+	width: 1000px;
+	margin: auto;
+	font-family: 'Caveat', cursive;
+	background: #e6ffff;
+	position: relative;
+	color: black;
+
+}
+
+#header{
+	background: #ccffff;
+	padding: 10px;
+	font-family: 'Arizonia', cursive;
+}
+
+
+
+#main{
+	background: #e6ffff;
+	width: 700px;
+	padding: 50px;
+	float: left;
+	margin: 0;
+}
+
+.alignleft{
+	float: left;
+	margin: 0px 10px 0 0;
+	width: 400px;
+	height: 300px;
+}
+
+#sidebar{
+	background: #ccf2ff;
+	width: 250px;
+	float: right;
+	border-style: ridge;
+	border-radius: 10px;
+	border-color: #80ccff;
+	display: block;
+	
+	
+}
+
+
+#footer{
+	background: #e6fff3;
+	padding: 5px;
+	color: #c34545;
+}
+
